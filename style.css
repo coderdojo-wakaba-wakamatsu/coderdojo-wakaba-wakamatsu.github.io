@@ -1,0 +1,9 @@
+.title{
+background-image: url('https://cdn.glitch.com/c77eaa4c-f8cd-4a35-b302-c7d74055c196%2F4803d_0000785114_1-670x443.jpg?15389768033902');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.title .white-bg {
+ background-color: rgba(255, 255, 255, 0.6); 
+}
