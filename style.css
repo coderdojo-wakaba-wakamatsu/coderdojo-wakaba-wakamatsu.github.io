@@ -1,13 +1,70 @@
-.title{
-background-image: url('https://cdn.glitch.com/c77eaa4c-f8cd-4a35-b302-c7d74055c196%2FDSC_1120.jpeg?v=1563181054841');
-background-size: cover;
-background-repeat: no-repeat;
+html {
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.title .white-bg {
- background-color: rgba(255, 255, 255, 0.6); 
+#navbar {
+  background-color: #80c683;
 }
 
-.linke-box{
- background-color: blue;
+.top-image {
+  margin-top: 56px;
+}
+
+#carousel-1 .carousel-item {
+  height: 500px;
+  background-color: #AAA;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width:544px) { 
+  #carousel-1 .carousel-item { 
+      height: 300px;
+  }
+}
+
+.about {
+  background-color: #b2fab4;
+  padding: 18px;
+}
+
+.detail {
+  background-color: #e1ffb1;
+  padding: 18px;
+}
+
+.inqury {
+  background-color: #b2fab4;
+  padding: 18px;
+}
+
+.about h2, 
+.detail h2,
+.inqury h2 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  max-width: 300px;
+  margin: 12px auto;
+  padding: 9px 0;
+}
+
+.about p,
+.detail p,
+.inqury p
+{
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inqury .email {
+  color: #000;
+}
+
+footer {
+  background-color: #519657;
+  color: #FFF;
+  padding: 6px;
+  text-align: center;
 }
