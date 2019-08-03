@@ -1,62 +1,145 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <title>CoderDojo若葉若松 | 千葉県千葉市若葉区で開催しているCoderDojo</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/f4bef49c1d.js"></script>
   </head>
-  <body>  
-  <div class="jumbotron title">
-  
-  <div class="white-bg p-3 rounded">
-  <h1 class="display-4">CoderDojo若葉若松参加ホームページ</h1>
-  <p class="lead">参加用ホームページ</p>
-  <p class="lead">開催日　未定</p>
-  <p class="lead">開催時間　14:00~17:00</p> 
-  </div> 
-  
-  <hr class="my-4">  
-  
-  <div class="white-bg p-2 rounded">
-  <p>参加者の方はこちらから！</p>
-    <a href="https://docs.google.com/forms/d/1aYYCxUkSxmu3yAJtY4OB9aDRB6u5ULpjq6dWKYXYsis/edit" class="btn btn-primary btn-lg" role="button">申し込み</a>
-  </div>
-  </div>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar">
+      <a class="navbar-brand" href="#">CoderDojo若葉若松</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><i class="fas fa-yin-yang"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#detail">詳細</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#facebook"><i class="fab fa-facebook-square"></i> Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inqury"><i class="fas fa-envelope"></i>お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     
-  <div class="container">
-  <div class="row">
-        
-  <div class="col-4">
-  <h2>
-    CoderDojoとは？
-  </h2>
-      <p>
-        CoderDojoとは、プログラミングのことを学び、『面白い』と思ってもらう活動です。<br>2011年にアイルランドで始まり、今では世界で70カ国・1,200の道場、日本では全国に82以上の道場があります。(2017年05月現在)
-      </p>
-        </div>
-          
-          <div class="col-4">
-            <h2>       
-             CoderDojo若葉若松とは
-            </h2>
-            <p>
-              CoderDojo若葉若松は千葉県千葉市を中心に活動するCoderDojoです。
-            </p>
-        </div>
-              
-          <div class="col-4">
-            <h2>
-              開催日時・時間
-            </h2>
-            <p>
-              第２日曜日　14:00~17:00まで
-            </p>
+    <section class="top-image">
+      <div id="carousel-1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url('https://cdn.glitch.com/cfe6c9be-fd93-4a06-a529-dd31ccfb1348%2FDSC_1120.jpeg?v=1564297191757')">
           </div>
-             
+          <div class="carousel-item" style="background-image: url('https://cdn.glitch.com/cfe6c9be-fd93-4a06-a529-dd31ccfb1348%2FDSC_2377.jpg?v=1564813630046')">  
+          </div>
+          <div class="carousel-item" style="background-image: url('https://cdn.glitch.com/cfe6c9be-fd93-4a06-a529-dd31ccfb1348%2Fcdn04-05-720x360.jpg?v=1564813820606')">
+           </div>                         
+          <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="container">
+        <h2><i class="fas fa-yin-yang"></i> About</h2>
+        <p>
+         CoderDojo は7〜17歳の子どもを対象にしたプログラミング道場です。2011年にアイルランドで始まり、世界では100カ国・1,900の道場、日本では全国に150以上の道場があります。CoderDojoはプログラミング教室ではありません。子どもたちは自分のプロジェクトを完成させるためにDojoに来ます。また、すべてのCoderDojoにおいて子どもたちの参加費は無料です。これはCoderDojo憲章にも書かれているとおり、CoderDojoは人種や性別、貧富の差によって学ぶ機会を制限することはないからです。私たちの活動はすべて寄付によって成り立っています。
+        </p>
+      </div>
+    </section>
+    
+    <section class="detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2>
+              <i class="fas fa-calendar-alt"></i> 開催スケジュール
+            </h2>
+            <p>#13回　8月11日(今回、こちらの都合で、CoderDojo若葉みつわ台との合同開催になっています)</p>
+            <p>#14回　9月8日（日）</p>
+            
+            <p class="mt-4">
+              <a class="btn btn-primary" href="https://forms.gle/9exVrw8f3be2TKJc9" target="_blank" rel="noopener">
+                参加申し込み
+              </a>
+            </p>
+            <h2>
+              <i class="fas fa-map-marker-alt"></i> 開催場所
+            </h2>
+            <p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.77250376814!2d140.1529443156909!3d35.63333448020549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf758dc5ba6801f2!2z5Y2D6JGJ5biCIOiLpeiRieWMuuW9ueaJgOiLpeiRieS_neWBpeemj-elieOCu-ODs-OCv-ODvOWBpeW6t-iqsuOBmeOBk-OChOOBi-imquWtkOS_gg!5e0!3m2!1sja!2sjp!4v1564303688535!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </p>
+            <p>
+              〒264-0020 千葉県千葉市若葉区貝塚２丁目１９−番1号 千葉市 若葉区役所若葉保健福祉センター 4F    
+            </p>
+            <p>
+              ※8月に限りみつわ台開催になります！開催場所は 千葉県千葉市若葉区みつわ台２丁目５−１５ アルファプラザ 1F　になります。
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>
+              <i class="fas fa-shopping-bag"></i> 持ち物
+            </h2>
+            
+            <p>
+              ・インターネットにつながるパソコン(貸し出し希望の方は不要)
+            </p>
+            <p>
+              ・パソコンに繋がるマウス
+            </p>
+            <p>
+              ・メールアドレス（アカウント作成希望者のみ）
+            </p>
+            
+            <h2>
+              <i class="fas fa-coins"></i> 参加費用
+            </h2>
+            
+            <p>
+              無料(開催の器具などに募金を使用しています)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section class="inqury" id="inqury">
+      <h2>
+        <i class="fas fa-envelope"></i> お問い合わせ
+      </h2>
+      
+      <p>
+        メールにてお問い合わせください
+      </p>
+      
+      <p>
+        <a href="mailto:wakaba.wakamatsu@gmail.com" class="email"><i class="fas fa-envelope fa-5x"></i><br>
+          wakaba.wakamatsu@gmail.com
+        </a>
+      </p>
+    </section>
+    
+    <footer>
+      CoderDojo若葉若松
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
